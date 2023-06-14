@@ -13,7 +13,7 @@ app = typer.Typer()
 def chat(
     messages_path: str,
     out_path: str | None = None,
-    model: str = "gpt-4",
+    model: str = "gpt-4-0613",
     temperature: float = 0.1,
     max_tokens: int = 4096,
 ):
